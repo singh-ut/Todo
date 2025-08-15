@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.wrapper {
+    @apply w-[min(calc(100%-50px),1000px)] mx-auto;
+}
