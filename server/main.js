@@ -7,7 +7,7 @@ import connectDB from './config/db.config.js';
 dotenv.config();
 const app = express();
 
-app.use(cors('http://localhost:5173/'))
+app.use(cors('https://todo-frontend-k3ag.onrender.com'))
 
 connectDB();
 
